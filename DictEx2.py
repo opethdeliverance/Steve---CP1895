@@ -14,7 +14,8 @@ def main():
     animals['d'].append('dog')
     animals['d'].append('dingo')
     print(animals.values())
-    print (how_many(animals))
+    total_animals = str(how_many(animals))
+    print (('There are ' + total_animals + ' animals'))
 
 
 
